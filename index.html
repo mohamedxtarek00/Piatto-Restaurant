@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piatto</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+    <!--Header Start-->
+    <header>
+        <div id="navbar">
+            <img src="./img/piattologo.png" alt="Piatto">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#offers">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="login.html"><i class="fa-solid fa-user"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <h1>Welcome to <span class="primarytext">Piatto</span> Restaurant</h1>
+            <p>Step into a culinary oasis where flavors dance on your plate and hospitality embraces you like an old friend. Where every meal is a celebration !</p>
+            <a href="#contact" class="btn btn_primary">Book a Table</a>
+        </div>
+    </header>
+    <!--Header End-->
+
+    <main>
+        <!-- About start -->
+        <section id="about">
+            <div class="container">
+                <div class="title">
+                    <h2>Piatto History</h2>
+                    <p>More than 30+ years of experiance</p>
+                </div>
+                <div class="about-content">
+                    <div>
+                        <p>Welcome to Piatto, where passion for Italian cuisine meets over 30 years of culinary expertise. Our journey began with a simple yet profound love for Italian flavors, and today, it's a celebration of tradition and innovation. From handmade pastas to wood-fired pizzas, each dish reflects our commitment to excellence and the finest locally-sourced ingredients. At Piatto, we invite you to savor the essence of Italy in every bite, amidst a warm and inviting atmosphere that's perfect for intimate dinners or joyful gatherings. Join us as we continue to redefine Italian dining, one unforgettable meal at a time. Buon appetito!</p>
+                        
+
+                        <a href="https://www.piatto.com.sa/" class="btn btn-secondary" target="_blank">LEARN MORE</a>
+                    
+                    </div>
+                    <img src="./img/about_img copy.png" alt="Food">
+                </div>
+            </div>
+        </section>
+        <!-- About end -->
+
+        <!--Offers Start-->
+        <section id="offers">
+            <div class="container">
+                <div class="title">
+                    <h2>Menu</h2>
+                    <p>WHERE EVERY MEAL IS A CELEBRATION !</p>
+                </div>
+                <div class="offers-items"> 
+                    <div>
+                        <a href="quatropasta.html" target="_blank"> <img src="/img/offer1.png" alt="Quatro"></a>
+                        <div>
+                            <a id="paragraph1" onclick="quatro()"><b>Quattro Pasta</b></a>
+                            <p>A flavorful blend of four pasta shapes served together in a delicious harmony of sauces and ingredients.</p>
+                            <p><del>$55.00</del><span class="primarytext">$45.00</span></p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="vegeterianpasta.html" target="_blank"><img src="/img/offer2.png" alt="Vegetarian"></a>
+                        <div>
+                            <a id="paragraph2" onclick="vegeterian()"><b>Vegeterian Pasta</b></a>
+                            <p>A delectable dish featuring a medley of pasta, vibrant vegetables, and savory sauces, crafted to delight both the palate and the conscience.</p>
+                            <p><del>$55.00</del><span class="primarytext">$40.00</span></p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="glutenfreepasta.html" target="_blank"><img src="/img/offer3.png" alt="Gluten Free "></a>
+                        <div>
+                            <a id="paragraph3" onclick="glutenfree()"><b>Gluten Free Pasta</b></a>
+                            <p>A tasty pasta option crafted from gluten-free ingredients for those with dietary restrictions or preferences.</p>
+                            <p><del>$55.00</del><span class="primarytext">$35.00</span></p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <section id="offers">
+            <div class="container">
+                <div class="offers-items">
+                    <div class="test3">
+                        <a href="./steak.html" target="_blank"><img src="/img/steak.jpg" alt="Steak"></a>
+                        <div>
+                            <a id="paragraph4" onclick="steak()"><b>Steak</b></a>
+                            <p class="test"> Succulent, grilled perfection paired with flavorful sides. A culinary masterpiece that satisfies every craving.</p>
+                            <p class="test-1"><del>$100.00</del><span class="primarytext">$75.00</span></p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="toastbanana.html" target="_blank"><img src="/img/shwermalol.jpg" alt="Shawarma"></a>
+                        <div>
+                            <a id="paragraph5" onclick="toastbanana()"><b>Toast & Banana</b></a>
+                            <p class="test">A harmonious blend of golden toast and ripe banana slices, perfect for a satisfying breakfast or a sweet treat any time of day</p>
+                            <p class="test-1"><del>$60.00</del><span class="primarytext">$35.00</span></p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="cheesepizza.html" target="_blank"><img  src="/img/cheesepizza.jpg" alt="Cheese Pizza "></a>
+                        <div>
+                            <a id="paragraph6" onclick="cheesepizza()"><b>Four Seasons Pizza</b></a>
+                            <p class="test"> A culinary symphony featuring a delectable medley of seasonal toppings atop a bed of gooey melted cheese, promising a flavor journey for every plate.</p>
+                            <p class="test-1"><del>$75.00</del><span class="primarytext">$55.00</span></p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <!--Offers End-->
+
+
+        <!--Daytime Start-->
+        <section id="daytime">
+            <di v class="container">
+                <div class="daytime-items">
+                    <div class="daytime-item">
+                        <img src="/img/breckfastIcon.png" alt="Breakfast">
+                        <h3>Breakfast</h3>
+                        <p>8:00 AM to 10:00 AM</p>
+                    </div>
+                    <div class="daytime-item">
+                        <img src="/img/lunchIcon.png" alt="Lunch">
+                        <h3>Lunch</h3>
+                        <p>2:00 PM to 5:00 PM</p>
+                    </div>
+                    <div v class="daytime-item">
+                        <img src="/img/dinnerIcon.png" alt="Dinner">
+                        <h3>Dinner</h3>
+                        <p>7:00 PM to 10:00 PM</p>
+                    </div>
+                    <div class="daytime-item">
+                        <img src="/img/dessertIcon.png" alt="Dessert">
+                        <h3>Dessert</h3>
+                        <p>Available All Day</p>
+                    </div>
+                </div>
+            </di>
+        </section>
+
+
+        <!--Daytime End-->
+
+        <!--Gallery Start-->
+
+        <section id="gallery">
+            <div class="container">
+                <h2>Food Gallery</h2>
+                <div class="img-gallery">
+                    <img src="/img/olayinka-babalola-r01ZopTiEV8-unsplash.jpg" alt="Gallery 1">
+                    <img src="./img/eaters-collective-12eHC6FxPyg-unsplash (1).jpg" alt="Gallery 2">
+                    <img src="/img/pastapasta.jpg" alt="Gallery 3">
+                    <img src="/img/ivan-torres-MQUqbmszGGM-unsplash.jpg" alt="Gallery 4">
+                    <img src="/img/marcus-loke-jxz5szOIzlk-unsplash.jpg" alt="Gallery 5">
+                    <img src="/img/background-baked-cheese-circle.jpg" alt="Gallery 6">
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--Gallery End-->
+
+
+
+
+        <!--Contact Start-->
+        <section id="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div>
+                            <h3>ADDRESS</h3>
+                            <p><i class="fa-solid fa-location-dot"></i> Open Air Mall, Madinaty, Egypt</p>
+                            <p><i class="fa-solid fa-phone"></i> Phone: 123456789</p>
+                            <p><i class="fa-solid fa-envelope"></i> support@piatto.com</p>
+                        </div>
+                        <div>
+                            <h3>Working Hours</h3>
+                            <p>9:00 AM to 5:00 PM Everyday</p>
+                        </div>
+                        <div>
+                            <h3>FOLLOW US</h3>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        </div>
+                    </div>
+                    <form>
+                        <input type="text" name="Name" id="Name" placeholder="Full Name" required>
+                        <input type="email" name="email" id="email" placeholder="Email Address" required>
+                        <input type="text" name="Subject" id="Subject" placeholder="Subject" required>
+                        <textarea name="Message" id="Message" cols="30" rows="5" placeholder="Message"></textarea>
+                        <button type="submit" class="btn">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--Contact End-->        
+        
+    </main>
+    <footer id="footer">
+        <p>Copyright &copy; 2024 All righs reserved | Made by <b>TECH GUYS</b></p>
+    </footer>
+
+    <script>
+
+
+    const paragraph = document.getElementById('paragraph1');
+
+paragraph.addEventListener('mouseover', function() {
+  paragraph.style.backgroundColor = 'red';
+});
+
+paragraph.addEventListener('mouseout', function() {
+  
+    paragraph.style.backgroundColor = ''; }
+);
+
+
+const paragraph2 = document.getElementById('paragraph2');
+
+paragraph2.addEventListener('mouseover', function() {
+paragraph2.style.backgroundColor = 'red';
+});
+
+paragraph2.addEventListener('mouseout', function() {
+
+paragraph2.style.backgroundColor = ''; // إعادة اللون الأصلي
+});
+const paragraph3 = document.getElementById('paragraph3');
+
+paragraph3.addEventListener('mouseover', function() {
+paragraph3.style.backgroundColor = 'red';
+});
+
+paragraph3.addEventListener('mouseout', function() {
+
+paragraph3.style.backgroundColor = ''; 
+});
+const paragraph4 = document.getElementById('paragraph4');
+
+paragraph4.addEventListener('mouseover', function() {
+paragraph4.style.backgroundColor = 'red';
+});
+
+paragraph4.addEventListener('mouseout', function() {
+
+paragraph4.style.backgroundColor = ''; 
+});
+const paragraph5 = document.getElementById('paragraph5');
+
+paragraph5.addEventListener('mouseover', function() {
+paragraph5.style.backgroundColor = 'red';
+});
+
+paragraph5.addEventListener('mouseout', function() {
+
+paragraph5.style.backgroundColor = ''; 
+});
+const paragraph6 = document.getElementById('paragraph6');
+
+paragraph6.addEventListener('mouseover', function() {
+paragraph6.style.backgroundColor = 'red';
+});
+
+paragraph6.addEventListener('mouseout', function() {
+
+paragraph6.style.backgroundColor = ''; // إعادة اللون الأصلي
+});
+    </script>
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
